@@ -1,4 +1,4 @@
-describe('Test suite', () => {
+describe('Module 5', () => {
     it('Should take a screenshot of a trainer', () => {
         cy.visit('https://fabrykatestow.pl')
         cy.get('h2').contains('Dostępne szkolenia').scrollIntoView()
