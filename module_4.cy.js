@@ -38,6 +38,7 @@ describe('Test Suite', () => {
         cy.get('span').contains('POKAŻ CZEGO SIĘ NAUCZĘ').should('be.visible');
         cy.get('a').contains('Panel kursanta').should('be.visible');
         cy.get('h4').contains('Nawet jak nie wiesz, od czego zacząć i jakich narzędzi używać').should('be.visible');
+
     });
 });
 
