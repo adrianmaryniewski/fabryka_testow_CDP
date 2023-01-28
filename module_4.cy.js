@@ -40,5 +40,6 @@ describe('Test Suite', () => {
         cy.get('h4').contains('Nawet jak nie wiesz, od czego zacząć i jakich narzędzi używać').should('be.visible');
 
     });
+
 });
 
